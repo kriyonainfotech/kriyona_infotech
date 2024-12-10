@@ -1,0 +1,61 @@
+.header {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  transition: all 0.5s;
+  font-size: 20px !important;
+  height: 140px;
+  background: transparent !important;
+  padding: 10px 25px;
+  z-index: 9999999999999999999 !important;
+  padding: 10px 25px;
+}
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header.scrolled {
+  background: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(64.4px) !important;
+  border-radius: 18px !important;
+  margin: auto !important;
+  width: 80% !important;
+  font-size: 15px !important;
+  height: 110px !important;
+  padding: 2px 5px !important;
+}
+
+header img {
+  height: 80px;
+  transition: height 0.5s;
+}
+
+header.scrolled img {
+  height: 57px;
+}
+
+.topbtn {
+  display: none;
+  /* other styles for the button */
+}
+@media screen and (max-width: 980px) {
+  .toggle-menu {
+    background-color: rgba(81, 80, 80, 0.817);
+    padding: 20px;
+  }
+  .toggle-menu ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(133, 136, 133);
+  }
+  .toggle-menu button {
+    background-color: transparent;
+    padding: 10px 0 !important;
+  }
+  .toggle-menu button a {
+    color: #0a932a !important;
+  }
+  .career {
+    text-align: left !important;
+  }
+}
