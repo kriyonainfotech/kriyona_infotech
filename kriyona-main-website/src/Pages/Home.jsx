@@ -674,13 +674,12 @@ const Home = () => {
             {/* Team Members Grid */}
             <div className="row g-4 justify-content-center">
               {[
-                { name: "Yogesh Narola", image: "yogesh.jpeg", role: "Team Lead" },
-                { name: "Kirtan Narola", image: "kirtan.jpeg", role: "Mobile Application Developer" },
-                { name: "Nayan Bhisara", image: "nayan.jpeg", role: "Video Editor" },
+                { name: "Kirtan Narola", image: "kirtan.jpeg", role: "CEO" },
+                { name: "Nayan Bhisara", image: "nayan.jpg", role: "Video Editor" },
                 { name: "Sujal Tank", image: "client4.png", role: "Full Stack Developer" },
                 { name: "Prarthana Vaghani", image: "prarthana.jpg", role: "Full Stack Developer" },
               ].map((member, index) => (
-                <div className="col-12 col-sm-6 col-md-4 col-lg-4 text-center " key={index}>
+                <div className="col-12 col-sm-6 col-md-4 col-lg-5 text-center " key={index}>
                   <div className="card border-0 shadow-sm h-auto blur-background3 text-white">
                     <img
                       src={`/images/team/${member.image}`}

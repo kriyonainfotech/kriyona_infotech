@@ -6,30 +6,31 @@ import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import SignUp from "./Pages/auth/register";
+import './App.css'
 // import Chat from "./Pages/auth/chat";
 // import SignIn from "./Pages/auth/login";
 const App = () => {
-  useEffect(() => {
-    // Disable F12 and Ctrl+Shift+I or Ctrl+U
-    const handleKeydown = (e) => {
-      if (e.keyCode === 123) {
-        // Disable F12 (DevTools)
-        e.preventDefault();
-      }
-      if (e.ctrlKey && (e.keyCode === 73 || e.keyCode === 85)) {
-        // Disable Ctrl+Shift+I or Ctrl+U (DevTools)
-        e.preventDefault();
-      }
-    };
+  // useEffect(() => {
+  //   // Disable F12 and Ctrl+Shift+I or Ctrl+U
+  //   const handleKeydown = (e) => {
+  //     if (e.keyCode === 123) {
+  //       // Disable F12 (DevTools)
+  //       e.preventDefault();
+  //     }
+  //     if (e.ctrlKey && (e.keyCode === 73 || e.keyCode === 85)) {
+  //       // Disable Ctrl+Shift+I or Ctrl+U (DevTools)
+  //       e.preventDefault();
+  //     }
+  //   };
 
-    // Add event listener for keydown
-    document.addEventListener('keydown', handleKeydown);
+  //   // Add event listener for keydown
+  //   document.addEventListener('keydown', handleKeydown);
 
-    // Cleanup the event listener when the component is unmounted
-    return () => {
-      document.removeEventListener('keydown', handleKeydown);
-    };
-  }, []);
+  //   // Cleanup the event listener when the component is unmounted
+  //   return () => {
+  //     document.removeEventListener('keydown', handleKeydown);
+  //   };
+  // }, []);
 
   return (
     <BrowserRouter>

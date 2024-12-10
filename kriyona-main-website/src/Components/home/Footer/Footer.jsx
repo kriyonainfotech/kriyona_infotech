@@ -1,26 +1,26 @@
 import React from "react";
 import "../Footer/Footer.css";
 import { IoIosMail } from "react-icons/io";
-import { FaUser, FaInstagram, FaLinkedinIn, FaTwitter, FaLongArrowAltRight } from "react-icons/fa";
+import { FaUser, FaInstagram, FaLinkedinIn, FaYoutube, FaLongArrowAltRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer pt-5 pb-4 bg-lightblur">
+      <footer className="footer pt-5 pb-4 ">
         <div className="container">
           <div className="row justify-content-between">
             {/* Logo and Company Info */}
-            <div className="col-lg-3 col-md-6 text-center text-md-start py-3 pt-1">
-              <div className="col-12 d-flex justify-content-start pb-4">
-                <div className="col-3">
+            <div className="col-lg-3 col-md-6  py-3 pt-1">
+              <div className="col-12 d-flex text-md-start justify-content- pb-4">
+                <div className="col-3 d-flex justify-content-center">
                   <img src="/images/kriyona-infotech-logo.png" alt="logo" height={58} className="" />
                 </div>
-                <div className="col-9">
+                <div className="col-9 mt-2 mt-md-0">
                   <h5 className="text-uppercase mb-0 text-darkgreen ">Kriyona Infotech</h5>
-                  <p className="text-green fst-italic mb-0">Bringing Visions to Digital Life.</p>
+                  <p className="text-gray fst-italic mb-0">Bringing Visions to Digital Life.</p>
                 </div>
               </div>
-              <p className="text-gray fs-6">
+              <p className="text-gray fs-6 text-md-center">
                 Kriyona Infotech is a creative digital agency based in India, composed of talented designers and experienced developers.
               </p>
               <div className="d-flex justify-content-center justify-content-md-start gap-3">
@@ -34,7 +34,7 @@ const Footer = () => {
                   <a href="https://www.linkedin.com/company/kriyonainfotech" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center"><FaLinkedinIn /></a>
                 </div>
                 <div className="ring  d-flex justify-content-center align-items-center text-center">
-                  <a href="https://www.youtube.com/@KriyonaInfotech" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center"><FaTwitter /></a>
+                  <a href="https://www.youtube.com/@KriyonaInfotech" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center"><FaYoutube /></a>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-3 text-secondary">
                   <FaUser className="me-2 text-gray fs-5" />
-                  <span className="text-gray">Contact <FaLongArrowAltRight className="mx-2 text-gray" /> +91 77799 54551</span>
+                  <span className="text-gray">Contact <FaLongArrowAltRight className="mx-1 text-gray" /> +91 77799 54551</span>
                 </li>
               </ul>
             </div>

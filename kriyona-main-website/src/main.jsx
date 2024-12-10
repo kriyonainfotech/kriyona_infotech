@@ -11,5 +11,5 @@ import "animate.css"
 // import WOW from 'wowjs';
 import "./css/all.min.css";
 import "./css/goodtimesfont.css";
-document.addEventListener('contextmenu', (e) => e.preventDefault());
+// document.addEventListener('contextmenu', (e) => e.preventDefault());
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
