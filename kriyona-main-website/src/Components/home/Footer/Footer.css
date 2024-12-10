@@ -7,3 +7,21 @@
 .hw-50:hover {
   border: 1px solid white;
 }
+.bg-lightblur {
+  background-color: #f7f7f71d;
+}
+.text-gray {
+  color: rgba(132, 125, 125, 0.799);
+  font-weight: 500;
+}
+.ring {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.ring a {
+}
+.ring:hover {
+  border: 1px solid rgba(128, 128, 128, 0.758);
+  border-radius: 50%;
+}

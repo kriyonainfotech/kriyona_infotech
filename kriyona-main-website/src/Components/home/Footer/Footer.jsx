@@ -6,58 +6,72 @@ import { FaUser, FaInstagram, FaLinkedinIn, FaTwitter, FaLongArrowAltRight } fro
 const Footer = () => {
   return (
     <div>
-      <footer className="footer pt-5 pb-4 bg-lightgreen">
+      <footer className="footer pt-5 pb-4 bg-lightblur">
         <div className="container">
           <div className="row justify-content-between">
             {/* Logo and Company Info */}
-            <div className="col-lg-3 col-md-6 text-center text-md-start py-3">
-              <img src="/images/kriyona-infotech-logo.png" alt="logo" height={58} className="mb-3" />
-              <h5 className="text-uppercase text-darkgreen mb-2">Kriyona Infotech</h5>
-              <p className="text-green fst-italic">Where Future Begins</p>
-              <p className="text-white fs-6">
+            <div className="col-lg-3 col-md-6 text-center text-md-start py-3 pt-1">
+              <div className="col-12 d-flex justify-content-start pb-4">
+                <div className="col-3">
+                  <img src="/images/kriyona-infotech-logo.png" alt="logo" height={58} className="" />
+                </div>
+                <div className="col-9">
+                  <h5 className="text-uppercase mb-0 text-darkgreen ">Kriyona Infotech</h5>
+                  <p className="text-green fst-italic mb-0">Bringing Visions to Digital Life.</p>
+                </div>
+              </div>
+              <p className="text-gray fs-6">
                 Kriyona Infotech is a creative digital agency based in India, composed of talented designers and experienced developers.
               </p>
               <div className="d-flex justify-content-center justify-content-md-start gap-3">
-                <a href="#" className="text-darkgreen fs-4"><IoIosMail /></a>
-                <a href="#" className="text-darkgreen fs-4"><FaInstagram /></a>
-                <a href="#" className="text-darkgreen fs-4"><FaLinkedinIn /></a>
-                <a href="#" className="text-darkgreen fs-4"><FaTwitter /></a>
+                <div className="ring d-flex justify-content-center align-items-center text-center">
+                  <a href="mailto:kriyonainfotech@gmail.com?" className="text-darkgreen fs-3 mb-2 px-2 text-center"><IoIosMail /></a>
+                </div>
+                <div className="ring  d-flex justify-content-center align-items-center text-center">
+                  <a href="https://www.instagram.com/kriyonainfotech/" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center "><FaInstagram /></a>
+                </div>
+                <div className="ring  d-flex justify-content-center align-items-center text-center">
+                  <a href="https://www.linkedin.com/company/kriyonainfotech" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center"><FaLinkedinIn /></a>
+                </div>
+                <div className="ring  d-flex justify-content-center align-items-center text-center">
+                  <a href="https://www.youtube.com/@KriyonaInfotech" target="blank" className="text-darkgreen fs-3 mb-2 px-2 text-center"><FaTwitter /></a>
+                </div>
               </div>
             </div>
 
             {/* Helpful Links */}
-            <div className="col-lg-2 col-md-6 text-center text-md-start py-3">
-              <h6 className="text-darkgreen text-uppercase mb-4">Helpful Links</h6>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">About Us</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">Our Work</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">Services</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">Contact</a></li>
+            <div className="col-lg-2 col-md-6 text-center text-md-start py-3 pt-0">
+              <h6 className="text-darkgreen text-uppercase mb-4 text-center">Helpful Links</h6>
+              <ul className="list-unstyled text-center">
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">About Us</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">Our Work</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">Services</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">Contact</a></li>
               </ul>
             </div>
 
             {/* Services */}
-            <div className="col-lg-2 col-md-6 text-center text-md-start py-3">
-              <h6 className="text-darkgreen text-uppercase mb-4">Services</h6>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">App Development</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">Blockchain</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">Game Development</a></li>
-                <li className="mb-2"><a href="#" className="text-white text-decoration-none">UI / UX Design</a></li>
+            <div className="col-lg-2 col-md-6 text-center text-md-start py-3 pt-0">
+              <h6 className="text-darkgreen text-uppercase mb-4 text-center">Services</h6>
+              <ul className="list-unstyled text-center">
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">App Development</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">Blockchain</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">Game Development</a></li>
+                <li className="mb-2"><a href="#" className="text-gray text-decoration-none">UI / UX Design</a></li>
               </ul>
             </div>
 
             {/* Contact Us */}
-            <div className="col-lg-3 col-md-6 text-center text-md-start py-3">
-              <h6 className="text-darkgreen text-uppercase mb-4">Contact Us</h6>
-              <ul className="list-unstyled">
+            <div className="col-lg-3 col-md-6 text-center text-md-start py-3 pt-0">
+              <h6 className="text-darkgreen text-uppercase mb-4 text-center">Contact Us</h6>
+              <ul className="list-unstyled text-center">
                 <li className="mb-3 text-secondary">
-                  <IoIosMail className="me-2 text-white" />
-                  <span className="text-white">kriyonainfotech@gmail.com</span>
+                  <IoIosMail className="me-2 text-gray fs-4" />
+                  <span className="text-gray">kriyonainfotech@gmail.com</span>
                 </li>
                 <li className="mb-3 text-secondary">
-                  <FaUser className="me-2 text-darkgreen" />
-                  <span className="text-white">Contact <FaLongArrowAltRight className="mx-2 text-white" /> +91 77799 54551</span>
+                  <FaUser className="me-2 text-gray fs-5" />
+                  <span className="text-gray">Contact <FaLongArrowAltRight className="mx-2 text-gray" /> +91 77799 54551</span>
                 </li>
               </ul>
             </div>
@@ -66,7 +80,7 @@ const Footer = () => {
       </footer>
 
       {/* Copy Right */}
-      <div className="copy-right bg-darkgreen text-white py-2">
+      <div className="copy-right bg-darkgreen text-gray py-2">
         <div className="container text-center">
           <p className="m-0 fs-6">
             © 2024 Kriyona Infotech. All Rights Reserved.
