@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-gray fs-6 text-center text-md-start">
-                Kriyona Infotech specializes in Flutter app development, web solutions, UI/UX design, and digital marketing. Contact us to bring your ideas to life!
+                Kriyona Infotech specializes in Flutter app development, custom software, web solutions, Digital Marketing and Ui/Ux Designing. Contact us to bring your ideas to life!
               </p>
               <p className="text-gray text-2xl text-center text-md-start ailgn-items-center"><IoLocation className="fs-4" />11-Ground Floor,Gruham Empire,Amroli,Surat - 394107 </p>
             </div>
